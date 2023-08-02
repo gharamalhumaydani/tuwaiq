@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body {
+    background-color: #f2f4f7;
+}
+.navbar{
+    height: 100vh;
+    padding: top 20px;
+    margin-bottom: 0px;  
+}
+.hVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+nav{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    margin-right: 83px;
+}
+    
+.nav-item{
+    margin-top: 14px;
+}
+
+.nav-item li a {
+    color: inherit;
+    text-decoration: none;
+}
+.logo{
+    width: 50px;
+}
+.Partners {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+.AcademyNumbersTitle h1 {
+    color: #4e3797;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.PartnersCards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.Newsletter {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    background-color: #57b4a8;
+}
+.AcademyActivitiesTitle h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.NewsletterForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+button2 a {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    color: #ffffff;
+    font-size: 18px;
+    border: 1px solid #4e3797;
+    background-color: #4e3797;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+.Footer {
+    background-color: #4e3797;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 50vh;
+}
